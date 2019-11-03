@@ -5,8 +5,8 @@ def letras_por_rayas(frase):
 
     for item in frase:
         if item.isalpha() or item == "":
-            cantidad_rayas += "-"
+            cantidad_rayas += "_"
 
     return cantidad_rayas
 
-print(letras_por_rayas("Hola buenos dias como estamos chavales"))
+print(letras_por_rayas("Me llamo Gabriel"))
